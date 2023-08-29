@@ -1,11 +1,16 @@
 import React from 'react'
-import Main from './Main'
+
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-    <div className='header'>Get Ready To Complete Your Daily Goals</div>
-    <Main/>
+    <div className='header'>
+      <Link to="/">Main</Link>
+      <Link to="/task">Task</Link>
+      
+    </div>
+    
     </>
   )
 }

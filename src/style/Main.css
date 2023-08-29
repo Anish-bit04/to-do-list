@@ -1,8 +1,11 @@
 .container{
-    width: 75%;
+    width: 70%;
     height: 100%;
+   
     margin: 2.5vmax;
     background-color: cornsilk;
+    left: 15%;
+    position: absolute;
 }
 .container >form{
     display: flex;
@@ -33,9 +36,8 @@ button{
 
 button:hover{
    background-color: red;
-
-
 }
+
 .title{
     text-align: center;
     margin-top: 10px;
